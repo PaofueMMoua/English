@@ -1,0 +1,104 @@
+body {
+  border: aqua 15px;
+  background-color: #000;
+}
+
+.content {
+  width: 80%;
+  min-width: 0;
+  margin: 0 auto;
+  border: white 4px solid;
+  background: gray;
+  background: lightgray;
+  overflow: hidden;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  background: transparent;
+  /* margin: 100px 40px 40px 40px; */
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  box-shadow: 0px 5px 10px 1px;
+}
+
+.nav-item {
+  border: none;
+  /* background-color: rgba(147, 135, 125, 1); */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  /* border-radius: 50px; */
+  color: black;
+  border-right: 1px solid black;
+}
+
+.about-me-preview-container p {
+  width: 30%;
+}
+
+.section {
+  width: 100%;
+  min-height: 100px;
+  background: white;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 5px 10px 1px;
+}
+
+.left {
+  float: left;
+  width: 48%;
+}
+
+.middle-bar {
+  width: 2%;
+  background-color: #000000;
+  margin: 1% 1% 1% 1%;
+  height: auto;
+}
+
+.footer {
+  height: 20px;
+  width: auto;
+}
+
+.right {
+  float: right;
+  width: 48%;
+}
+
+.chapter-right {
+  width: auto;
+  float: right;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.chapter-left {
+  width: auto;
+  float: left;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.content-2 {
+  width: 80%;
+  min-width: 0;
+  margin: 0 auto;
+  border: white 4px solid;
+  background: gray;
+  background: lightgray;
+  overflow: hidden;
+  display: flex;
+}
