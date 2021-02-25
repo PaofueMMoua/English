@@ -102,3 +102,8 @@ body {
   overflow: hidden;
   display: flex;
 }
+
+.Img-s {
+  width:auto;
+  height:auto;
+}
